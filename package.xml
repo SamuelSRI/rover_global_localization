@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rover_global_localization</name>
+  <version>0.0.1</version>
+  <description>Global GPS localization for a rover using robot_localization.</description>
+
+  <maintainer email="samuel16.gendre@gmail.com">Samuel Gendre</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
